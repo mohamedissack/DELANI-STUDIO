@@ -15,3 +15,20 @@ $("form#formInput").submit(function(event){
 
     event.preventDefault();
   })
+
+  $(".hidden").hide();
+$(".image").click(function(){
+    $(".hidden").show();
+});
+
+$(".dev").hide();
+$(".im").click(function(){
+    $(".dev").show();
+});
+$(".pro").hide();
+$(".imag").click(function(){
+    $(".pro").show();
+
+});
+
+
